@@ -38,7 +38,7 @@ class App:
         self.e_mins = ttk.Entry(frame_in, width=5)
         self.e_mins.grid(row=0, column=5, padx=5)
         
-        btn_add = ttk.Button(frame_in, text="ДОБАВИТЬ", command=self.add_item)
+        btn_add = ttk.Button(frame_in, text="ДОБАВИТЬ ТРЕНИРОВКУ", command=self.add_item)
         btn_add.grid(row=0, column=6, padx=10)
 
 
